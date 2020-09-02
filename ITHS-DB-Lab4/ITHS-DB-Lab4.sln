@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITHS-DB-Lab4", "ITHS-DB-Lab4\ITHS-DB-Lab4.csproj", "{DCEAB545-E199-4E56-91F8-9C7E2C7FBAC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCEAB545-E199-4E56-91F8-9C7E2C7FBAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCEAB545-E199-4E56-91F8-9C7E2C7FBAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCEAB545-E199-4E56-91F8-9C7E2C7FBAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCEAB545-E199-4E56-91F8-9C7E2C7FBAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DE069B7-CBCA-4B72-A50E-C2F9512AA71C}
+	EndGlobalSection
+EndGlobal
