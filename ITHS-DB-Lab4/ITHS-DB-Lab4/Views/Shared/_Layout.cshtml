@@ -6,13 +6,15 @@
     <title>@ViewData["Title"] - ITHS_DB_Lab4</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     <header>
         <nav role="navigation" class="navbar navbar-expand-sm">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="../images/bear-paw.svg" class="dark-bear-logo" />ITHS_DB_Lab4
+                    <img src="../images/LogoWhite.png" class="dark-bear-logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -57,9 +59,63 @@
     <main>
         @RenderBody()
     </main>
-    <footer>
-        <div class="container padded-top">&copy; @DateTime.Now.Year - ITHS-DB-Lab4   //Gym Management</div>
+    @*<footer>
+            <div class="footer container padded-top align-content-lg-end">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="../images/LogoWhite.png" class="dark-bear-logo" />
+                </a>
+            &copy; @DateTime.Now.Year - StayFit //Hever Give Up</div>
+        </footer>*@
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">
+                        StayFit <i>NEVER GIVE UP</i>
+                        We want to help you live a fit and healthy lifestyle! We do this by helping you find the most suitable equipment for your home gym, studio or commercial gym, keeping your budget, lifestyle and fitness goals in mind. We stock a wide range of gym equipment, with strength equipment, cardio, cross training and so much more. Our awesome team is always keen to help, so please call us to discuss your needs.
+                    </p>
+                </div>
+
+               
+
+                <div class="col-sm-12 col-md-6 text-sm-right">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                        <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                        <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                        <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">
+                        Copyright &copy; 2017 All Rights Reserved by
+                        <a href="#">Scanfcode</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </footer>
+
+
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
